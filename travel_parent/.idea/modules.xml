@@ -7,7 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/tarvel_service/tarvel_service.iml" filepath="$PROJECT_DIR$/tarvel_service/tarvel_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/tarvel_util/tarvel_util.iml" filepath="$PROJECT_DIR$/tarvel_util/tarvel_util.iml" />
       <module fileurl="file://$PROJECT_DIR$/tarvel_web/tarvel_web.iml" filepath="$PROJECT_DIR$/tarvel_web/tarvel_web.iml" />
-      <module fileurl="file://$PROJECT_DIR$/travel_parent.iml" filepath="$PROJECT_DIR$/travel_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/travel.iml" filepath="$PROJECT_DIR$/travel.iml" />
     </modules>
   </component>
 </project>

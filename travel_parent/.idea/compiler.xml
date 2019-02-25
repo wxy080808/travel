@@ -13,13 +13,13 @@
         <module name="tarvel_web" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.8">
       <module name="tarvel_dao" target="1.8" />
       <module name="tarvel_pojo" target="1.8" />
       <module name="tarvel_service" target="1.8" />
       <module name="tarvel_util" target="1.8" />
       <module name="tarvel_web" target="1.8" />
-      <module name="travel_parent" target="1.8" />
+      <module name="travel" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
