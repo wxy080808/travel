@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://E:/黑马学习资料/MySQL和web核心/day28_黑马旅游网04/代码/travel" />
+    <file type="web" url="file://E:/黑马学习资料/SSM框架/ssm综合练习/ssm综合练习_day05/代码/heima_ssm/heima_ssm_web" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="E:/黑马学习资料/SSM框架/ssm综合练习/ssm综合练习_day05/代码/heima_ssm/pom.xml" />
+        <option value="E:/黑马学习资料/MySQL和web核心/day28_黑马旅游网04/代码/travel/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/tarvel_dao/tarvel_dao.iml" filepath="$PROJECT_DIR$/tarvel_dao/tarvel_dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tarvel_pojo/tarvel_pojo.iml" filepath="$PROJECT_DIR$/tarvel_pojo/tarvel_pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tarvel_service/tarvel_service.iml" filepath="$PROJECT_DIR$/tarvel_service/tarvel_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tarvel_util/tarvel_util.iml" filepath="$PROJECT_DIR$/tarvel_util/tarvel_util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tarvel_web/tarvel_web.iml" filepath="$PROJECT_DIR$/tarvel_web/tarvel_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/travel_parent.iml" filepath="$PROJECT_DIR$/travel_parent.iml" />
+    </modules>
+  </component>
+</project>

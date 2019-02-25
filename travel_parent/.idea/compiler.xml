@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="tarvel_dao" />
+        <module name="tarvel_pojo" />
+        <module name="tarvel_service" />
+        <module name="tarvel_util" />
+        <module name="tarvel_web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="tarvel_dao" target="1.8" />
+      <module name="tarvel_pojo" target="1.8" />
+      <module name="tarvel_service" target="1.8" />
+      <module name="tarvel_util" target="1.8" />
+      <module name="tarvel_web" target="1.8" />
+      <module name="travel_parent" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

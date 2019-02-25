@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://E:/黑马学习资料/SSM框架/ssm综合练习/ssm综合练习_day05/代码/heima_ssm/heima_ssm.iml" filepath="E:/黑马学习资料/SSM框架/ssm综合练习/ssm综合练习_day05/代码/heima_ssm/heima_ssm.iml" />
+      <module fileurl="file://E:/黑马学习资料/SSM框架/ssm综合练习/ssm综合练习_day05/代码/heima_ssm/heima_ssm_dao/heima_ssm_dao.iml" filepath="E:/黑马学习资料/SSM框架/ssm综合练习/ssm综合练习_day05/代码/heima_ssm/heima_ssm_dao/heima_ssm_dao.iml" />
+      <module fileurl="file://E:/黑马学习资料/SSM框架/ssm综合练习/ssm综合练习_day05/代码/heima_ssm/heima_ssm_domain/heima_ssm_domain.iml" filepath="E:/黑马学习资料/SSM框架/ssm综合练习/ssm综合练习_day05/代码/heima_ssm/heima_ssm_domain/heima_ssm_domain.iml" />
+      <module fileurl="file://E:/黑马学习资料/SSM框架/ssm综合练习/ssm综合练习_day05/代码/heima_ssm/heima_ssm_service/heima_ssm_service.iml" filepath="E:/黑马学习资料/SSM框架/ssm综合练习/ssm综合练习_day05/代码/heima_ssm/heima_ssm_service/heima_ssm_service.iml" />
+      <module fileurl="file://E:/黑马学习资料/SSM框架/ssm综合练习/ssm综合练习_day05/代码/heima_ssm/heima_ssm_utils/heima_ssm_utils.iml" filepath="E:/黑马学习资料/SSM框架/ssm综合练习/ssm综合练习_day05/代码/heima_ssm/heima_ssm_utils/heima_ssm_utils.iml" />
+      <module fileurl="file://E:/黑马学习资料/SSM框架/ssm综合练习/ssm综合练习_day05/代码/heima_ssm/heima_ssm_web/heima_ssm_web.iml" filepath="E:/黑马学习资料/SSM框架/ssm综合练习/ssm综合练习_day05/代码/heima_ssm/heima_ssm_web/heima_ssm_web.iml" />
+      <module fileurl="file://E:/git_works/project_parent/project_parent.iml" filepath="E:/git_works/project_parent/project_parent.iml" />
+      <module fileurl="file://E:/黑马学习资料/MySQL和web核心/day28_黑马旅游网04/代码/travel/travel.iml" filepath="E:/黑马学习资料/MySQL和web核心/day28_黑马旅游网04/代码/travel/travel.iml" />
+    </modules>
+  </component>
+</project>
