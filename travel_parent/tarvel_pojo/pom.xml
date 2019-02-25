@@ -11,5 +11,11 @@
 
     <artifactId>tarvel_pojo</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>com.itheima</groupId>
+            <artifactId>tarvel_util</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>
