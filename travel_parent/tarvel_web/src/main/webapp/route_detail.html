@@ -7,9 +7,14 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/common.css">
     <link rel="stylesheet" type="text/css" href="css/route-detail.css">
+
+    <script type="text/javascript" src="plugins/angularjs/angular.min.js"></script>
+    <script type="text/javascript" src="js/base.js"></script>
+    <script type="text/javascript" src="js/service/FavoriteService.js"></script>
+    <script type="text/javascript" src="js/controller/FavoriteController.js"></script>
 </head>
 
-<body>
+<body ng-app="travel" ng-controller="FavoriteController" ng-init="findById(1)">
 <!--引入头部-->
 <div id="header"></div>
     <!-- 详情 start -->   
@@ -58,17 +63,17 @@
                 </dd>
             </dl>
             <div class="prosum_right">
-               <p class="pros_title">【尾单特卖】全国-曼谷6-7天自由行 泰国出境旅游 特价往返机票自由行二次确认</p>
-                <p class="hot">1-2月出发，网付立享￥1099/2人起！爆款位置有限，抢完即止！</p>
+               <p class="pros_title">{{entity.rname}}</p>
+                <p class="hot">{{entity.routeIntroduce}}</p>
                 <div class="pros_other">
                     <p>经营商家  ：黑马国旅</p>
                     <p>咨询电话 : 400-618-9090</p>
                     <p>地址 ： 传智播客黑马程序员</p>  
                 </div>
                 <div class="pros_price">
-                    <p class="price"><strong>¥2699.00</strong><span>起</span></p>
+                    <p class="price"><strong>¥{{entity.price}}</strong><span>起</span></p>
                     <p class="collect">
-                        <a class="btn"><i class="glyphicon glyphicon-heart-empty"></i>点击收藏</a>
+                        <a class="btn" ng-click="addFavorite(entity.rid)"><i class="glyphicon glyphicon-heart-empty"></i>点击收藏</a>
 
                         <a  class="btn already" disabled="disabled"><i class="glyphicon glyphicon-heart-empty"></i>点击收藏</a>
                         <span>已收藏100次</span>

@@ -1,15 +1,22 @@
 <!-- 头部 start -->
-    <header id="header">
+<!--
+<head>
+    <script type="text/javascript" src="plugins/angularjs/angular.min.js"></script>
+    <script type="text/javascript" src="js/base.js"></script>
+    <script type="text/javascript" src="js/service/CategoryService.js"></script>
+    <script type="text/javascript" src="js/controller/CategoryController.js"></script>
+</head>
+    <header id="header" ng-app="travel" ng-controller="categoryController" ng-init="findAll()">
         <div class="top_banner">
             <img src="images/top_banner.jpg" alt="">
         </div>
         <div class="shortcut">
-            <!-- 未登录状态  -->
+            &lt;!&ndash; 未登录状态  &ndash;&gt;
             <div class="login_out">
                 <a href="login.html">登录</a>
                 <a href="register.html">注册</a>
             </div>
-            <!-- 登录状态  -->
+            &lt;!&ndash; 登录状态  &ndash;&gt;
             <div class="login">
             	
                 <span>欢迎回来，admin</span>
@@ -38,20 +45,20 @@
             </div>
         </div>
     </header>
-    <!-- 头部 end -->
-     <!-- 首页导航 -->
+    &lt;!&ndash; 头部 end &ndash;&gt;
+     &lt;!&ndash; 首页导航 &ndash;&gt;
     <div class="navitem">
-        <ul class="nav">
-            <li class="nav-active"><a href="index.html">首页</a></li>
-            <li><a href="route_list.html">门票</a></li>
-            <li><a href="route_list.html">酒店</a></li>
-            <li><a href="route_list.html">香港车票</a></li>
-            <li><a href="route_list.html">出境游</a></li>
-            <li><a href="route_list.html">国内游</a></li>
-            <li><a href="route_list.html">港澳游</a></li>
-            <li><a href="route_list.html">抱团定制</a></li>
-            <li><a href="route_list.html">全球自由行</a></li>
-            <li><a href="favoriterank.html">收藏排行榜</a></li>
+        <ul class="nav" ng-repeat="entity in list">{{list}}
+            <li class="nav-active"><a href="index.html" >{{entity.cname}}</a></li>
+            &lt;!&ndash;<li><a href="route_list.html">门票</a></li>&ndash;&gt;
+            &lt;!&ndash;<li><a href="route_list.html">酒店</a></li>&ndash;&gt;
+            &lt;!&ndash;<li><a href="route_list.html">香港车票</a></li>&ndash;&gt;
+            &lt;!&ndash;<li><a href="route_list.html">出境游</a></li>&ndash;&gt;
+            &lt;!&ndash;<li><a href="route_list.html">国内游</a></li>&ndash;&gt;
+            &lt;!&ndash;<li><a href="route_list.html">港澳游</a></li>&ndash;&gt;
+            &lt;!&ndash;<li><a href="route_list.html">抱团定制</a></li>&ndash;&gt;
+            &lt;!&ndash;<li><a href="route_list.html">全球自由行</a></li>&ndash;&gt;
+            &lt;!&ndash;<li><a href="favoriterank.html">收藏排行榜</a></li>&ndash;&gt;
         </ul>
     </div>
-    
+    -->
